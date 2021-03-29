@@ -8,15 +8,22 @@ public class TestCanvas extends Canvas{
         int w = d.width;
         int h = d.height;
 
-        g.setColor(Color.RED);
-        g.fillRect(10, 100, 100, 100);
-        g.setColor(Color.BLACK);
-        g.drawRect(10, 100, 100, 100);
 
+
+        g.setColor(Color.orange);
+        g.fillOval(90, 80, 100, 100);
+        g.setColor(Color.PINK);
+        g.fillOval(90, 200, 100, 100);
         g.setColor(Color.RED);
-        g.fillOval(120, 200, 100, 100);
-        g.setColor(Color.BLACK);
-        g.drawOval(120, 200, 100, 100);
+        g.fillOval(30, 140, 100, 100);
+        g.setColor(Color.MAGENTA);
+        g.fillOval(150, 140, 100, 100);
+        g.setColor(Color.YELLOW);
+        g.fillOval(130, 180, 20, 20);
+        g.setColor(Color.YELLOW);
+        g.drawLine(130, 180, 250, 250);
+
+
 
 
 
